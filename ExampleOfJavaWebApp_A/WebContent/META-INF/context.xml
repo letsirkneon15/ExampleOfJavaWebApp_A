@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<!-- Specify a JDBC datasource -->
+<Resource name="" auth="Container"
+type="javax.sql.DataSource" username="" password=""
+driverClassName="oracle.jdbc.driver.OracleDriver"
+url=""
+maxActive="10" maxIdle="4" />
+</Context>
